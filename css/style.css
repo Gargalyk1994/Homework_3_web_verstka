@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+	font-family: 'Gilroy-Bold';
+	src: url('../fonts/gilroy-bold/fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-bold/fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/gilroy-bold/fonts/gilroy-bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/gilroy-bold/fonts/gilroy-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-bold/fonts/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/gilroy-bold/fonts/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+	font-family: 'Gilroy-Medium';
+	src: url('../fonts/gilroy-medium/fonts/gilroy-medium.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-medium/fonts/gilroy-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/gilroy-medium/fonts/gilroy-medium.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/gilroy-medium/fonts/gilroy-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-medium/fonts/gilroy-medium.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/gilroy-medium/fonts/gilroy-medium.svg#gilroy-medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+	font-family: 'Gilroy-SemiBold';
+	src: url('../fonts/gilroy-semibold/fonts/gilroy-semibold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-semibold/fonts/gilroy-semibold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/gilroy-semibold/fonts/gilroy-semibold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/gilroy-semibold/fonts/gilroy-semibold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-semibold/fonts/gilroy-semibold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/gilroy-semibold/fonts/gilroy-semibold.svg#gilroy-semibold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+a{
+    text-decoration: none;
+}
+:root{
+    --font-bold: "Gilroy-Bold";
+    --font-medium: "Gilroy-Medium";
+    --font-semi-bold: "Gilroy-SemiBold";
+    --accent-color: #F25822;
+    --black-color: #000000;
+    --white-color: #FFFFFF;
+    --dark-gray-color: #888888;
+    --light-gray-color: #AAAAAA;
+}
+.header {
+    
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header__flex-box {
+    min-height: 120px;
+    margin-bottom: 43px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logotype {
+    width: 137px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logotype__icon {
+}
+.logotype__text {
+}
+.header__menu {
+    width: 533px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu__link{
+    color: var(--black-color);
+    font-family: var(--font-medium), sans-serif;
+    font-size: 14px;
+}
+
+.menu__link:hover{
+    color: var(--accent-color);
+    font-family: var(--font-semi-bold), sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main-content {
+    
+}
+.main-content__flex-box {
+    margin-bottom: 162px;
+    display: flex;
+
+}
+.flex-box__main-block{
+    max-width: 522px;
+    margin-right: 41px;
+}
+.main-block__title {
+    margin-bottom: 17px;
+    color: var(--black-color);
+    font-family: var(--font-bold), sans-serif;
+    font-size: 60px;
+}
+.main-block__text {
+    margin-bottom: 37px;
+    color: var(--dark-gray-color);
+    font-family: var(--font-medium), sans-serif;
+    font-size: 20px;
+}
+.main-block__buttons {
+
+}
+.buttons__button1 {
+    height: 50px;
+    width: 140px;
+    border-radius: 50px;
+    background: var(--accent-color);
+    color: var(--white-color);
+    font-family: var(--font-bold), sans-serif;
+    font-size: 15px;
+    margin-right: 72px;
+}
+.buttons__button2 {
+    color: var(--light-gray-color);
+    font-family: var(--font-bold), sans-serif;
+    font-size: 15px;
+}
+.main-content__image {
+}
+
+.footer {
+    
+}
+.footer__flex-box {
+    min-height: 243px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-box__icon {
+}
+
+
+
+
+
+
