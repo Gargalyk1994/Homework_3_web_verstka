@@ -117,14 +117,16 @@ a{
 
 }
 .buttons__button1 {
-    height: 50px;
-    width: 140px;
+    /* height: 50px;
+    width: 140px; */
+    padding: 15px 35px;
     border-radius: 50px;
     background: var(--accent-color);
     color: var(--white-color);
     font-family: var(--font-bold), sans-serif;
     font-size: 15px;
     margin-right: 72px;
+    cursor: pointer;
 }
 .buttons__button2 {
     color: var(--light-gray-color);
