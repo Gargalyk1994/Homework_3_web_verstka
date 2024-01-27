@@ -3,20 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
     <title>Homework3</title>
   </head>
   <body>
+    
     <header class="header">
       <div class="container">
         <div class="header__flex-box">
           <div class="header__logotype">
             <img src="images/Logo.svg" alt="Logotype" class="logotype__icon" />
-            <img
-              src="images/GrowBe.svg"
-              alt="Logotype"
-              class="logotype__text"
-            />
+            <p class="logotype__text">Grow<span class="logotype__text-especial">Be</span></p>
           </div>
           <div class="header__menu">
             <a href="#" class="menu__link">Home</a>
@@ -30,6 +29,7 @@
         </div>
       </div>
     </header>
+    
     <section class="main-content">
       <div class="container">
         <div class="main-content__flex-box">
@@ -42,7 +42,7 @@
                 Globally incubate standards.
                 </p>
                 <div class="main-block__buttons">
-                    <button class="buttons__button1">Start Now</button>
+                    <button class="buttons__button1 button_accent-style">Start Now</button>
                     <a href="#" class="buttons__button2">Watch Video</a>
                 </div>
             </div>
@@ -50,17 +50,448 @@
         </div>
       </div>
     </section>
-    <footer class="footer">
+    
+    <section class="brand-logotypes inside_indent">
       <div class="container">
-        <div class="footer__flex-box">
-          <img src="images/1.png" alt="" class="flex-box__icon" />
-          <img src="images/6.png" alt="" class="flex-box__icon" />
-          <img src="images/3.png" alt="" class="flex-box__icon" />
-          <img src="images/4.png" alt="" class="flex-box__icon" />
-          <img src="images/5.png" alt="" class="flex-box__icon" />
-          <img src="images/6 (1).png" alt="" class="flex-box__icon" />
+        <div class="brand-logotypes__items">
+          <img src="images/1.png" alt="brand1" class="brand-logotypes__icon" />
+          <img src="images/6.png" alt="brand2" class="brand-logotypes__icon" />
+          <img src="images/3.png" alt="brand3" class="brand-logotypes__icon" />
+          <img src="images/4.png" alt="brand4" class="brand-logotypes__icon" />
+          <img src="images/5.png" alt="brand5" class="brand-logotypes__icon" />
+          <img src="images/6 (1).png" alt="brand6" class="brand-logotypes__icon" />
         </div>
       </div>
+    </section>
+    
+    <section class="about inside_indent">
+      <div class="container">
+        <div class="about__block">
+          <div class="about__block-text">
+            <h2 class="about__text-title">Perfect Solution For
+              Your Business</h2>
+            <p class="about__text-p">Distinctively exploit optimal alignments for intuitive bandwidth. Quickly coordinate e-business applications through revolutionary catalysts for chang the Seamlessly underwhelm optimal testing procedures.</p>
+            <button class="about__button button_accent-style">Learn More</button>
+          </div>
+          <img src="images/macbook.png" alt="macbook" class="about__image">
+        </div>
+      </div>
+    </section>
+    
+    <section class="features inside_indent">
+      <div class="container">
+        <div class="features__block">
+          <div class="features__card">
+            <img src="images/features_icon1.svg" alt="icon1" class="features__icon">
+            <h4 class="features__title">Grow Your Business</h4>
+            <p class="features__text">Leverage agile frameworks to provide a robust synopsis for high level overviews.</p>
+            <button class="features__button">Read More...</button>
+          </div>
+          <div class="features__card">
+            <img src="images/features_icon2.svg" alt="icon2" class="features__icon">
+            <h4 class="features__title">Get Quality Ieads</h4>
+            <p class="features__text">Leverage agile frameworks to provide a robust synopsis for high level overviews.</p>
+            <button class="features__button">Read More...</button>
+          </div>
+          <div class="features__card">
+            <img src="images/features_icon3.svg" alt="icon3" class="features__icon">
+            <h4 class="features__title">Drive More Sales</h4>
+            <p class="features__text">Leverage agile frameworks to provide a robust synopsis for high level overviews.</p>
+            <button class="features__button">Read More...</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="services inside_indent">
+      <div class="container">
+        <h2 class="services__title">Why You Should Choose Us.</h2>
+        <p class="services__main-text">Distinctively exploit optimal alignments for intuitive bandwidth. Quickly coordinate e-business
+          applications through revolutionary catalysts.</p>
+        <div class="services__block">
+          <div class="services__card">
+            <img src="images/keyword.png" alt="keyword" class="services__image">
+            <div class="services__down-block">
+              <h3 class="services__text-card-h3">Keyword Research</h3>
+              <p class="services__text-card-p">Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.</p>
+              <button class="services__button button_accent-style">
+                <p class="services__text-button">Learn More</p>
+                <img src="images/arrow.svg" alt="arrow" class="services__icon-button">
+              </button>
+            </div>
+          </div>
+          <div class="services__card">
+            <img src="images/seo.png" alt="SEO" class="services__image">
+            <div class="services__down-block">
+              <h3 class="services__text-card-h3">Seo Optimazadion</h3>
+              <p class="services__text-card-p">Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.</p>
+              <button class="services__button button_accent-style">
+                <p class="services__text-button">Learn More</p>
+                <img src="images/arrow.svg" alt="arrow" class="services__icon-button">
+              </button>
+            </div>
+          </div>
+          <div class="services__card">
+            <img src="images/social-marketing.png" alt="marketing" class="services__image">
+            <div class="services__down-block">
+              <h3 class="services__text-card-h3">Social Marketing</h3>
+              <p class="services__text-card-p">Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.</p>
+              <button class="services__button button_accent-style">
+                <p class="services__text-button">Learn More </p>
+                <img src="images/arrow.svg" alt="arrow" class="services__icon-button">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="what-we-do">
+      <div class="container">
+        <div class="what-we-do__block-flex">
+          <img src="images/image_what.png" alt="compass" class="what-we-do__image">
+          <div class="what-we-do__right-block">
+            <h2 class="what-we-do__title">You may ask what <br>
+              SEO & why do you need it?</h2>
+            <p class="what-we-do__text">Distinctively exploit optimal alignments for intuitive bandwidth. Quickly coordinate e-business applications through revolutionary.</p>
+            <div class="what-we-do__block-grid">
+              <div class="what-we-do__block-grid-item">
+                <img src="images/Icon-what1.svg" alt="" class="what__icon">
+                <div class="what__text">
+                  <h3 class="what__text-h3">Social Media Marketing</h3>
+                  <p class="what__text-p">Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.</p>
+                </div>
+              </div>
+              <div class="what-we-do__block-grid-item">
+                <img src="images/Icon-what2.svg" alt="" class="what__icon">
+                <div class="what__text">
+                  <h3 class="what__text-h3">Email Marketing</h3>
+                  <p class="what__text-p">Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.</p>
+                </div>
+              </div>
+              <div class="what-we-do__block-grid-item">
+                <img src="images/Icon-what3.svg" alt="" class="what__icon">
+                <div class="what__text">
+                  <h3 class="what__text-h3">SEO Optimization</h3>
+                  <p class="what__text-p">Business applications through revolutionary catalysts for chang the Seamlessly underwhelm dures.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </section>
+
+    <section class="facts">
+      <div class="container">
+        <div class="facts__flex-box">
+          <div class="facts__items">
+            <h2 class="facts__number">95</h2>
+            <p class="facts__text">Happy Clients</p>
+          </div>
+          <img src="images/Dots1.svg" alt="" class="facts__dot">
+          <div class="facts__items">
+            <h2 class="facts__number">115</h2>
+            <p class="facts__text">Project Done</p>
+          </div>
+          <img src="images/Dots2.svg" alt="" class="facts__dot">
+          <div class="facts__items">
+            <h2 class="facts__number">8+</h2>
+            <p class="facts__text">Years Of Experince</p>
+          </div>
+          <img src="images/Dots3.svg" alt="" class="facts__dot">
+          <div class="facts__items">
+            <h2 class="facts__number">12</h2>
+            <p class="facts__text">National Awards</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mail-box inside_indent">
+      <div class="container">
+        <div class="mail-box__flex">
+          <div class="mail-box__left-block">
+            <h2 class="mail-box__title">Check Your Website Speed </h2>
+            <p class="mail-box__text">Distinctively exploit optimal alignments for intuitive bandwidth.
+Quickly coordinate e-business through revolutionary.</p>
+            <div class="mail-box__input-box">
+              <input type="text" class="mail-box__input-item">
+              <input type="text" class="mail-box__input-item">
+              <button class="mail-box__input-btn button_accent-style">Learn More</button>
+            </div>
+          </div>
+          <img src="images/mail-box.png" alt="" class="mail-box__image">
+        </div>
+      </div>
+    </section>
+
+    <section class="plans inside_indent">
+      <div class="container">
+        <h2 class="plans__title">Our Plans</h2>
+        <p class="plans__text">Choose the right SEO for you</p>
+        <div class="plans__cards">
+          <div class="plans__card">
+            <p class="plans__card-text-p">Plus</p>
+            <div class="plans__price">
+              <p class="plans__dollar">$</p>
+              <h2 class="plans__number">30</h2>
+              <p class="plans__month">/mounth</p>
+            </div>
+            <p class="plans__text-description">50GB Bandwidth <br>
+            Business & Financ Analysing <br>
+            24 Hour Support <br>
+            Customer Managemet</p>
+            <button class="plans__button button_accent-style">Get Started</button>
+          </div>
+          <div class="plans__card">
+            <p class="plans__card-text-p">Beginer</p>
+            <div class="plans__price">
+              <p class="plans__dollar">$</p>
+              <h2 class="plans__number">125</h2>
+              <p class="plans__month">/mounth</p>
+            </div>
+            <p class="plans__text-description">50GB Bandwidth <br>
+            Business & Financ Analysing <br>
+            24 Hour Support <br>
+            Customer Managemet</p>
+            <button class="plans__button button_accent-style">Get Started</button>
+          </div>
+          <div class="plans__card">
+            <p class="plans__card-text-p">Advanced</p>
+            <div class="plans__price">
+              <p class="plans__dollar">$</p>
+              <h2 class="plans__number">129</h2>
+              <p class="plans__month">/mounth</p>
+            </div>
+            <p class="plans__text-description">50GB Bandwidth <br>
+            Business & Financ Analysing <br>
+            24 Hour Support <br>
+            Customer Managemet</p>
+            <button class="plans__button button_accent-style">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="team inside_indent">
+      <div class="container">
+        <h2 class="team__title">Our Expert Team Members</h2>
+        <p class="team__text">This new-found knowledge may then be used by engineers to create new tools and machines.</p>
+        <div class="team__cards">
+          <div class="team__card">
+            <img src="images/avatar1.png" alt="" class="team__avatar">
+            <h3 class="team__name">Nattasha</h3>
+            <p class="team__job">Web Develper</p>
+            <div class="team__icons-networks">
+              <a href="#"><i class="fa fa-facebook team__icon" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-twitter team__icon" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-linkedin team__icon" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-google team__icon" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="team__card">
+            <img src="images/avatar2.png" alt="" class="team__avatar">
+            <h3 class="team__name">Beginer</h3>
+            <p class="team__job">Web Designer</p>
+            <div class="team__icons-networks">
+              <a href="#"><i class="fa fa-facebook team__icon" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-twitter team__icon" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-linkedin team__icon" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-google team__icon" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="team__card">
+            <img src="images/avatar3.png" alt="" class="team__avatar">
+            <h3 class="team__name">Haris Milas</h3>
+            <p class="team__job">Ceo & Co-Funder</p>
+            <div class="team__icons-networks">
+              <a href="#"><i class="fa fa-facebook team__icon" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-twitter team__icon" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-linkedin team__icon" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-google team__icon" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="team__card">
+            <img src="images/avatar4.png" alt="" class="team__avatar">
+            <h3 class="team__name">Nelson Mecoy</h3>
+            <p class="team__job">Marketing Manager</p>
+            <div class="team__icons-networks">
+              <a href="#"><i class="fa fa-facebook team__icon" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-twitter team__icon" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-linkedin team__icon" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-google team__icon" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="testimonials inside_indent">
+      <div class="container">
+        <h2 class="testimonials__title">Our Clients Say</h2>
+        <p class="testimonials__text">Our in - house search engine experts deliver profitable Google,
+          Bing, Yahoo Ranking.</p>
+        <div class="testimonials__cards">
+          <div class="testimonials__card">
+            <p class="testimonials__description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint 
+              cupiditate non provident.</p>
+            <img src="images/testimonials-avatar1.png" alt="" class="testimonials__avatar">
+            <h4 class="testimonials__name">Rabith Halson</h4>
+            <p class="testimonials__job">Web Develper</p>
+          </div>
+          <div class="testimonials__card">
+            <p class="testimonials__description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint 
+              cupiditate non provident.</p>
+            <img src="images/testimonials-avatar1.png" alt="" class="testimonials__avatar">
+            <h4 class="testimonials__name">Rabith Halson</h4>
+            <p class="testimonials__job">Web Develper</p>
+          </div>
+          <div class="testimonials__card">
+            <p class="testimonials__description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint 
+              cupiditate non provident.</p>
+            <img src="images/testimonials-avatar2.png" alt="" class="testimonials__avatar">
+            <h4 class="testimonials__name">Selena Roy</h4>
+            <p class="testimonials__job">UI Designer</p>
+          </div>
+          <div class="testimonials__card">
+            <p class="testimonials__description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint 
+              cupiditate non provident.</p>
+            <img src="images/testimonials-avatar2.png" alt="" class="testimonials__avatar">
+            <h4 class="testimonials__name">Selena Roy</h4>
+            <p class="testimonials__job">UI Designer</p>
+          </div>
+        </div>
+        <div class="testimonials__dots">
+          <img src="images/Ellipse 22.png" alt="" class="testimonials__eclipse">
+          <img src="images/Ellipse 22.png" alt="" class="testimonials__eclipse">
+          <img src="images/Ellipse 22.png" alt="" class="testimonials__eclipse">
+          <img src="images/Ellipse 22.png" alt="" class="testimonials__eclipse">
+        </div>
+      </div>
+    </section>
+
+    <section class="blog-post inside_indent">
+      <div class="container">
+        <h2 class="blog-post__title">Our Latest News</h2>
+        <p class="blog-post__text">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+          Curae Suspendisse ante arcu, consectetur id nisl eget.</p>
+        <div class="blog-post__cards">
+          <div class="blog-post__card">
+            <img src="images/blog-post-image1.png" alt="" class="blog-post__card-image">
+            <div class="blog-post__right-block">
+              <h3 class="blog-post__text-question">How to become a new digital
+marketing idea?</h3>
+              <div class="blog-post__icons">
+                <div class="blog-post__icon-statistic">
+                  <p class="blog-post__icon-text"><span><i class="fa fa-user blog-post__icon" aria-hidden="true"></i></span>By Admin</p>
+                </div>
+                <div class="blog-post__icon-statistic">
+                  <p class="blog-post__icon-text"><span><i class="fa fa-heart blog-post__icon" aria-hidden="true"></i></span>32 Love</p>
+                </div>
+                <div class="blog-post__icon-statistic">
+                  <p class="blog-post__icon-text"><span><i class="fa fa-commenting blog-post__icon" aria-hidden="true"></i></span>13 Comment</p>
+                </div>
+              </div>
+              <p class="blog-post__description">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure.</p>
+              <a href="" class="blog-post__link">Read More...</a>
+            </div>
+          </div>
+          <div class="blog-post__card">
+            <img src="images/blog-post-image1.png" alt="" class="blog-post__card-image">
+            <div class="blog-post__right-block">
+              <h3 class="blog-post__text-question">How to become a new digital
+marketing idea?</h3>
+              <div class="blog-post__icons">
+                <div class="blog-post__icon-statistic">
+                  <p class="blog-post__icon-text"><span><i class="fa fa-user blog-post__icon" aria-hidden="true"></i></span>By Admin</p>
+                </div>
+                <div class="blog-post__icon-statistic">
+                  <p class="blog-post__icon-text"><span><i class="fa fa-heart blog-post__icon" aria-hidden="true"></i></span>32 Love</p>
+                </div>
+                <div class="blog-post__icon-statistic">
+                  <p class="blog-post__icon-text"><span><i class="fa fa-commenting blog-post__icon" aria-hidden="true"></i></span>13 Comment</p>
+                </div>
+              </div>
+              <p class="blog-post__description">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure.</p>
+              <a href="" class="blog-post__link">Read More...</a>
+            </div>
+          </div>
+          <div class="blog-post__card">
+            <img src="images/blog-post-image2.png" alt="" class="blog-post__card-image">
+            <div class="blog-post__right-block">
+              <h3 class="blog-post__text-question">How to become a new digital
+marketing idea?</h3>
+              <div class="blog-post__icons">
+                <div class="blog-post__icon-statistic">
+                  <p class="blog-post__icon-text"><span><i class="fa fa-user blog-post__icon" aria-hidden="true"></i></span>By Admin</p>
+                </div>
+                <div class="blog-post__icon-statistic">
+                  <p class="blog-post__icon-text"><span><i class="fa fa-heart blog-post__icon" aria-hidden="true"></i></span>32 Love</p>
+                </div>
+                <div class="blog-post__icon-statistic">
+                  <p class="blog-post__icon-text"><span><i class="fa fa-commenting blog-post__icon" aria-hidden="true"></i></span>13 Comment</p>
+                </div>
+              </div>
+              <p class="blog-post__description">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure.</p>
+              <a href="" class="blog-post__link">Read More...</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer inside_indent">
+      <div class="container">
+        <div class="footer__cards">
+          <div class="footer__card-logo">
+            <div class="card-logo__logotype">
+              <img src="images/Logo.svg" alt="Logotype" class="card-logo__icon">
+              <p class="card-logo__text">Grow<span class="card-logo__text-especial">Be</span></p>
+            </div>
+            <p class="card-logo__description">Distinctively exploit optimal alignments for intuitive
+              bandwidth. Quickly coordinate business through revolutionary.</p>
+            <div class="card-logo__icons-networks">
+              <a href="#" class="card-logo__icon"><i class="fa fa-facebook team__icon" aria-hidden="true"></i></a>
+              <a href="#" class="card-logo__icon"><i class="fa fa-twitter team__icon" aria-hidden="true"></i></a>
+              <a href="#" class="card-logo__icon"><i class="fa fa-linkedin team__icon" aria-hidden="true"></i></a>
+              <a href="#" class="card-logo__icon"><i class="fa fa-google team__icon" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="footer__card">
+            <h3 class="list-cards__title">Our Company</h3>
+            <ul class="list-cards__list">
+              <li>About Us</li>
+              <li>Our Services</li>
+              <li>Our Plan</li>
+              <li>Our Team</li>
+              <li>Latest News</li>
+            </ul>
+          </div>
+          <div class="footer__card">
+            <h3 class="list-cards__title">Our Services</h3>
+            <ul class="list-cards__list">
+              <li>Digital Marketing</li>
+              <li>SEO Optimazation</li>
+              <li>Web Development</li>
+              <li>Link Building</li>
+              <li>Terms & Privacy</li>
+            </ul>
+          </div>
+          <div class="footer__card">
+            <h3 class="list-cards__title">Contact Us</h3>
+            <ul class="list-cards__list">
+              <li>Location: 1370 Orvilly Rot APT,
+                  New York, USA</li>
+              <li>Email: growbeinfo@gmail</li>
+              <li>Phone: +324-9332-5018</li>
+            </ul>
+          </div>
+        </div>
+        <div><hr class="horizont-line"></div>
+        <p class="footer__bottom-text">Copyright © GrowBe 2023. All Rights Reserved.</p>
+      </div>
     </footer>
+
   </body>
 </html>

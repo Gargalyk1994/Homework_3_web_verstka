@@ -1,0 +1,76 @@
+@media screen and (max-width: 1200px){
+    body {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .header__flex-box{
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    /* .main-content{
+        padding-left: 15px;
+        padding-right: 15px;
+    } */
+    .main-content__flex-box {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .brand-logotypes__items{
+       flex-wrap: wrap;
+       justify-content: center; 
+    }
+    .about__block {
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+    .features__block {
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+    .what-we-do__block-flex {
+        flex-direction: column;
+        justify-content: center; 
+    }
+    .facts__flex-box{
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+    .mail-box__flex {
+        flex-direction: column;
+        justify-content: center; 
+    }
+    .mail-box__input-box{
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+    .services__block {
+        flex-wrap: wrap;
+    }
+    .plans__cards {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .team__cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .testimonials__cards{
+        grid-template-columns: repeat(2, 1fr);
+    }  
+}
+
+@media screen and (max-width: 768px){
+    .plans__cards {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .team__cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .testimonials__cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 380px){
+    
+}
